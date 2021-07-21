@@ -1,0 +1,14 @@
+python-decouple
+brotlipy
+dj-database-url
+psutil
+ipython
+requests
+pandas
+wheel
+pymongo
+dnspython
+geopy
+matplotlib
+scipy
+fuzzywuzzy[speedup]

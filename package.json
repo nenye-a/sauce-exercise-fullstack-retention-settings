@@ -1,0 +1,13 @@
+{
+  "name": "sauce-exercise",
+  "scripts": {
+    "start:saucynode": "node saucynode/src/retention.js",
+    "start:frontend": "yarn --cwd frontend start",
+    "postinstall": "yarn --cwd saucynode install && yarn --cwd frontend install --production=false"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0"
+  },
+  "private": true,
+  "dependencies": {}
+}
