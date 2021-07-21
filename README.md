@@ -4,7 +4,7 @@ This is a repo hosts the "Customer Retention & Settings (Sauce Exercise)" exerci
 
 Instructions provided [here](https://docs.google.com/document/d/1ZHwj7OMi-4kzMKBFt_TUdrgE7RlKg7fxoGGdNqa9FvM/edit).
 
-## Setup Analyze Customer Instructions (Customer Retention)
+## Setup Backend (Task 1)
 
 ### Python
 
@@ -40,7 +40,7 @@ ITEM_ORDER_COLLECTION_NAME = ''  # TODO: Please enter your collection name
 const itemOrderCollectionName = ''; // TODO: Please enter your collection name
 ```
 
-## Frontend Set up
+## Frontend Set up (Task 2)
 
 **Recommended**: You are recommended to use node version 12.16, but node versions 12.16 + should work.
 
