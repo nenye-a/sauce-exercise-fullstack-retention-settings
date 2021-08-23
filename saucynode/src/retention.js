@@ -3,15 +3,11 @@ const { itemOrders } = require('./models');
 /**
  * This function takes item orders from the itemOrders database
  * and generates:
- *    (1) list of items sorted by item customer retention (please print to csv).
- *    (2) overall customer retention for the entire dataset.
- *
- * If an orderType is specified, it returns retention only for orders belonging
- * to the provided subgroup. Otherwise, it returns overall retention, ignoring
- * orderType.
+ *    - overall customer retention for the specified time period in the dataset.
+ *    - if no date period is provided, will provide data for the entire data set.
  *
  *
- * @param {String} orderType 'experiment' | 'control' | null | undefined
+ *
  * @param {Date} startDate date obj indicating the start date of the time period
  * @param {Date} endDate date obj indicating the end date of the time period
  */

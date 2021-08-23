@@ -1,12 +1,12 @@
 from utils import ITEM_ORDERS
 
 
-def retention(order_type=None, start_date=None, end_date=None):
+def retention(start_date=None, end_date=None):
     '''
     This function takes item orders from the ITEM_ORDERS database
     and generates:
-      (1) list of items sorted by item customer retention (please print to csv).
-      (2) overall customer retention for the entire dataset.
+      - overall customer retention for the specified time period in the dataset.
+      - if no date period is provided, will provide data for the entire data set.
 
     If an order_type is specified, it returns retention only for orders belonging
     to the provided subgroup. Otherwise, it returns overall retention, ignoring
@@ -14,7 +14,6 @@ def retention(order_type=None, start_date=None, end_date=None):
 
     Parameters
     --------
-        order_type (str): 'experiment' | 'control' | None
         start_date (date): datetime indicating the start date of the time period
         end_date (date): datetime indicating the end date of the time period
 
